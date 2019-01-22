@@ -1,0 +1,83 @@
+/* etiqueda, ID, clase */
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* nombre de color ó #rgb ó rgb(0,0,0) */
+	background-color: #2ECCFA;
+	color: white; /* color de encabezado */
+	text-align: center; /* posicion del encabezado */
+}
+h1{
+	/* TITULO, tamaño y espaciados arriba abajo */
+	font-size: 3.5em; 
+	margin: 0.5em;
+}
+ul{
+	width: 100%;
+}
+ul li{
+	border: 1px solid white; /* ancho, estilo, color */
+	color: white; /*color de las letras */
+	display: inline-block; /* acomodar las opciones */
+	font size: 1.3em; /* tamaño de fuente */
+	padding: 0.3em; /* tamaño del rectangulo */
+	width: 23%; /* Nivel de amplitud */
+}
+ul li:hover{
+	border-radius: 10px; /*redondea el rectangulo*/
+    border: double; /* contorno del margen (animacion) */
+    background-color: #0080FF; /*color de relleno del rectangulo*/
+    transition: 1s; /* tiempo del efecto */
+}
+section{
+	display: inline-block;
+	margin-top: 1em; /*separacion imagen arriba abajo*/
+	width: 100%;
+}
+section article{
+	/* background-color: white; */
+	display: inline-block;
+	width: 10%; /* distancia de imagen del centro a la derecha */
+}
+section aside{
+	background-color: white;
+	min-height: 530%;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+section img{
+	max-width: 100%;
+}
+footer{
+	background-color: #0080FF;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: #ddd;
+	padding: 2em;
+	width: 100%;
+}
+
+section#Gal{
+	background-color: #2ECCFA;
+	width: 100%;
+}
+article.galeria{
+	color: black;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1em;
+	width: 22%
+}
+article.galeria img:hover{
+	opacity: 0.7;
+	transform: 2s;
+}
+article.galeria img{
+	border-radius: 3px;
+	max-width: 90%;
+	max-height: 90%;
+}
